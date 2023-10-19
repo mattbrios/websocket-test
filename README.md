@@ -36,6 +36,8 @@ Client: [http://localhost:3000](http://localhost:3000)
 Server: [http://localhost:3001](http://localhost:3001)
 
 Ao inicializar os dois ambientes em paralelo nos terminais, no client digite o nome de usuário e aguarde nesta tela para o sorteio.
+
 Abra quantas instâncias quiser, preenchendo o nome de usuário e conectando ao websocket.
+
 Para realizar o sorteio, acesse [http://localhost:3000/admin](http://localhost:3000/admin). Nesta tela você verá quantas pessoas estão participando do sorteio e terá o botão de ação para realização do sorteio. Ao realizar, será sinalizado o vencedor na tela do admin e, via web socket será exibido nas instâncias dos participantes se o usuário venceu ou não.
 
