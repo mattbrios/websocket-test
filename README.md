@@ -7,7 +7,9 @@ Primeiramente, entenda que este projeto é dividido em duas partes.
 
 ### Estrutura
 /client foi desenvolvido em ReactJS, utilizando o [ViteJS](https://vitejs.dev/) como framework;
+
 /server foi desenvolvido em NodeJS, utilizando o [Express](https://expressjs.com/) como framework;
+
 Ambos utilizam [Socket.io](https://socket.io/) para gerenciamento do Web Socket;
 
 ## Start
@@ -30,6 +32,7 @@ npm run dev
 
 ## Utilização
 Client: [http://localhost:3000](http://localhost:3000)
+
 Server: [http://localhost:3001](http://localhost:3001)
 
 Ao inicializar os dois ambientes em paralelo nos terminais, no client digite o nome de usuário e aguarde nesta tela para o sorteio.
